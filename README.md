@@ -53,4 +53,4 @@ cd KitapOnerim
 
 ## 📫 İletişim
 
-GitHub: [[@KULLANICI_ADINIZ](https://github.com/KULLANICI_ADINIZ)](https://github.com/oztekinzeynepnur)
+GitHub: (https://github.com/KULLANICI_ADINIZ)](https://github.com/oztekinzeynepnur)
