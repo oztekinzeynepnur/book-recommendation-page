@@ -1,0 +1,108 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 8px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.hero-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-section .lead {
+    color: #666;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Kategori kartları için stil */
+.category-card {
+    cursor: pointer;
+}
+
+.category-card .category-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Modal içindeki kitap kartları için stil */
+.book-card {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book-card h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.book-card .text-muted {
+    font-size: 0.9rem;
+}
+
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+/* Mobil cihazlar için düzenlemeler */
+@media (max-width: 768px) {
+    .book-card img {
+        height: 200px;
+    }
+    
+    .modal-dialog {
+        margin: 10px;
+    }
+}
